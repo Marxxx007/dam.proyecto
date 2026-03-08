@@ -101,7 +101,7 @@ export default function Mapa() {
           <GoogleMap
             mapContainerStyle={{ width: '100%', height: 'calc(100vh - 220px)', minHeight: '500px' }}
             center={center}
-            zoom={colmenasConPos.length > 0 ? 10 : 6}
+            zoom={6}
             options={{
               streetViewControl: false,
               mapTypeControl: true,
